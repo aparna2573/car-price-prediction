@@ -14,6 +14,7 @@ The automotive industry stands out as one of the most dynamic global sectors, co
 In the used car market, both buyers and sellers aim to reach a price that accurately reflects the vehicle's value. Yet, this can be a challenging task due to the lack of transparent pricing mechanisms and the subjective nature of valuations. Sellers may inflate their vehicle prices to maximize profits, while buyers may struggle to determine if the asking price aligns with the car's actual condition and market value.
 In this scenario, machine learning technologies offer a promising solution for pricing used cars. By utilizing historical sales data and analyzing various factors$ such as mileage, make, model, year, and location, machine learning models can provide objective estimates of a vehicle's value. These models$offer valuable insights to both buyers and sellers, promoting informed decision-making and fair transactions in the used car market.
 
+
 This project aims to develop and evaluate machine learning models$specifically designed to predict used car prices. By leveraging data-driven algorithms, we strive to enhance transparency and efficiency in the used car market, benefiting consumers, dealerships, and automotive enthusiasts. Through thorough experimentation and analysis, we seek to identify the most effective$methods for accurately predicting used car prices, thereby advancing pricing mechanisms within the automotive industry.
 
 In the following sections, we will explore the problem statement, proposed solutions, the technical stack used, the results achieved, potential areas for future improvement, and our concluding thoughts. Our goal is to highlight the$potential of machine learning in transforming pricing practices in the used car market.
@@ -27,9 +28,13 @@ Tackling the complexities of pricing used cars necessitates a multifaceted appro
 
 **Data Collection and Pre-processing:**
 We sourced our dataset from Kaggle, which provided comprehensive information on used car sales from across$the United States. The dataset included features such as mileage, make, model, year, state, and city. To ensure the quality and relevance of the data, we conducted pre-processing steps, including outlier removal, feature$encoding (e.g., one-hot encoding for categorical variables), and data normalization.
+![image](https://github.com/user-attachments/assets/6d2c85ed-feca-4061-a46c-b6a669c2b8f6)
+
 
 _**1.	Exploratory Data Analysis (EDA) And Error Detection:**_
 Before proceeding with model development, we$conducted exploratory data analysis to gain insights into the distribution and relationships between different features. Visualizations such as histograms and scatter plots helped us identify trends, patterns, and potential correlations that$informed our modeling decisions.
+![image](https://github.com/user-attachments/assets/a80d8d28-5212-4165-89ba-7745eeaa8b8a)
+
 
 _**2.	Model Selection and Implementation:**_
 We experimented with a diverse set of machine learning algorithms, ranging from classic linear regression to ensemble methods and deep learning models. $This included Linear Regression, Random Forest, Gradient,  KMeans clustering with Linear Regression. Each algorithm was implemented using the different libraries in Python, allowing for easy integration and comparison.
@@ -69,8 +74,14 @@ By leveraging this comprehensive tech stack, we$were able to develop, implement,
 **Output and Results:**
 The performance of each algorithm was evaluated based on its ability to predict used car prices accurately. The evaluation metrics used include R-squared score on both training and test data, as well as training time. The results indicate that Linear Regression, Random Forest, and the KMeans + Linear$Regression ensemble method yielded the best performance, with Random Forest achieving the highest R-squared score on the test data.
 •	Input Values using TKinter interface
+![image](https://github.com/user-attachments/assets/4c463878-98e4-47e9-9acf-2db48234401f)
+
 ●	R2 Score final data
+![image](https://github.com/user-attachments/assets/404f15ab-64fb-4e16-a95f-884399559e00)
+
 ●	Plotting figure of R2 Score(Y-label) VS Model(X-label)
+![image](https://github.com/user-attachments/assets/ec65212a-11c7-402a-9659-6e77104bf7d3)
+
  
 **Future Scope**
 While our project has laid the groundwork for predicting used car prices based on structured data, there is exciting potential to extend this work by incorporating image-based predictions. The future scope of our project includes several key areas of exploration and development:
