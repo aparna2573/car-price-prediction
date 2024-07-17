@@ -75,6 +75,7 @@ By leveraging this comprehensive tech stack, we were able to develop, implement,
 The performance of each algorithm was evaluated based on its ability to predict used car prices accurately. The evaluation metrics used include R-squared score on both training and test data, as well as training time. The results indicate that Linear Regression, Random Forest, and the KMeans + Linear Regression ensemble method yielded the best performance, with Random Forest achieving the highest R-squared score on the test data.
 
 •	Input Values using TKinter interface
+
 ![image](https://github.com/user-attachments/assets/4c463878-98e4-47e9-9acf-2db48234401f)
 
 
