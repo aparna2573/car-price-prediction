@@ -76,10 +76,13 @@ The performance of each algorithm was evaluated based on its ability to predict 
 •	Input Values using TKinter interface
 ![image](https://github.com/user-attachments/assets/4c463878-98e4-47e9-9acf-2db48234401f)
 
+
 ●	R2 Score final data
+
 ![image](https://github.com/user-attachments/assets/404f15ab-64fb-4e16-a95f-884399559e00)
 
 ●	Plotting figure of R2 Score(Y-label) VS Model(X-label)
+
 ![image](https://github.com/user-attachments/assets/ec65212a-11c7-402a-9659-6e77104bf7d3)
 
  
